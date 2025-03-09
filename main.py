@@ -76,4 +76,5 @@ if not data.empty:
     st.write("### Logged Mood Data 📝")
     st.dataframe(data.sort_values(by="Date", ascending=False))
 
-st.write("Built with ❤️ by **Faria Mustaqim**")
+st.write("Build with ❤️ by [Faria Mustaqim](https://github.com/Zaibunis)")
+
