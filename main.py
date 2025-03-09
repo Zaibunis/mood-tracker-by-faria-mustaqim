@@ -72,7 +72,7 @@ if not data.empty:
     except Exception as e:
         st.error(f"Error processing data: {e}")
 
-    # Show mood data table
+    # Show mood data tabl
     st.write("### Logged Mood Data 📝")
     st.dataframe(data.sort_values(by="Date", ascending=False))
 
